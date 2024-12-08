@@ -6,7 +6,6 @@ from keras.preprocessing.image import img_to_array
 from playsound import playsound
 from threading import Thread
 
-
 def start_alarm(sound):
     """Play the alarm sound"""
     playsound('data/alarm.mp3')
